@@ -1,0 +1,292 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+/* ------------> Header <------------*/
+header{
+    background: url(./assets/images/CoffeHeader.png);
+    height: 600px;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    border-radius: 20px;
+}
+
+.back-color{
+    background-color: rgba(20, 54, 66, 0.7);
+    height: 100%;
+    width: 100%;
+    border-radius: 30px;
+}
+
+/* ------------- Navbar ----------------*/
+nav{
+    display: flex;
+    flex-direction: row;
+    padding: 39px 138px;
+}
+
+.nav-logo{
+    flex-grow: 1;
+}
+
+.nav-link{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+
+.nav-link a{
+    font-size: 30px;
+    line-height: 36px;
+    color: #f9fbfe;
+    text-decoration: none;
+}
+
+/* --------------------- Hero ----------------*/
+.hero{
+    padding: 5% 25% 239px 25%;
+    text-align: center;
+}
+
+.hero h1{
+    font-size: 70px;
+    line-height: 84px;
+    color: #f9fbfe;
+    font-weight: bolder;
+}
+
+.hero p{
+    font-size: 36px;
+    color: #f9fbfe;
+    margin-top: 10px;
+}
+
+/* -------------------- Main -----------------*/
+.deskrip{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 7%;
+}
+
+.deskrip-item{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.deskrip-pict{
+    width: 25%;
+    padding-top: 10%;
+    margin-left: 15%;
+}
+
+.deskrip-more{
+    width: 30%;
+    padding: 0 10%;
+}
+
+.deskrip-pict-right{
+    width: 25%;
+    padding-top: 10%;
+    margin-right: 5%;
+}
+
+.deskrip-more-left{
+    width: 30%;
+    padding: 0 10%;
+}
+
+.deskrip-pict-over{
+    width: 30%;
+    padding-top: 10%;
+    margin-left: 15%;
+}
+
+.deskrip h3{
+    font-size: 48px;
+    line-height: 58px;
+    border-bottom: 5px solid;
+    border-color: #EC9A29;
+    padding-bottom: 10px;
+    font-weight: bolder;
+    color: #0F8B8D;
+}
+
+.deskrip p{
+    font-size: 24px;
+    line-height: 29px;
+    padding-top: 20px;
+    color: #143642;
+    margin-bottom: 40px;
+}
+
+.deskrip img{
+    width: 100%;
+    border-radius: 20px;
+}
+
+.deskrip a{
+    display: block;
+    width: 60%;
+    padding: 25px 50px;
+    background-color: #A8201A;
+    text-align: center;
+    border-radius: 40px;
+    font-size: 24px;
+    text-decoration: none;
+    color: white;
+}
+
+/* ----------------- Instagrampost ------------------*/
+.instagrampost{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 5%;
+}
+
+.instagrampost h3{
+    font-size: 48px;
+    text-align: center;
+    color: #0F8B8D;
+    line-height: 58px;
+    margin-bottom: 40px;
+}
+
+.instagrampost a{
+    color: #EC9A29;
+}
+
+.instagram-pic{
+    display: flex;
+    flex-direction: row;
+}
+
+.instagrampost img{
+    padding: 5%;
+    width: 25%;
+}
+
+/* ---------------> Contact <----------------*/
+.contact{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 5%;
+}
+
+.contact h1{
+    font-size: 48px;
+    color: #0F8B8D;
+    font-weight: bolder;
+    line-height: 58px;
+    margin-bottom: 10px;
+}
+
+.contact p{
+    font-size: 24px;
+    color: #143642;
+    line-height: 29px;
+}
+
+.contact a{
+    display: block;
+    width: 20%;
+    padding: 25px 50px;
+    background-color: #A8201A;
+    text-align: center;
+    border-radius: 40px;
+    font-size: 24px;
+    text-decoration: none;
+    color: white;
+    margin-top: 2%;
+}
+
+/* ----------------> Footer <-------------------- */
+footer{
+    background-color: #143642;
+    padding: 5% 10% 10% 10%;
+    display: flex;
+    flex-direction: row;
+    border-radius: 20px;
+}
+
+.foot-logo{
+    width: 65%;
+    margin-bottom: 10px;
+}
+
+.foot-icon{
+    width: 10%;
+}
+
+.footer-option{
+    display: flex;
+    flex-direction: column;
+    width: 25%;
+}
+
+.footer-option p{
+    font-size: 24px;
+    color: #EC9A29;
+    margin-bottom: 20px;
+}
+
+.footer-option a{
+    text-decoration: none;
+    color: white;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
