@@ -1,0 +1,266 @@
+/* ------------> Tablet <-----------------*/
+@media (max-width:1000px) {
+
+    .hero{
+        padding: 5% 20% 10% 20%;
+    }
+
+    .hero h1{
+        font-size: 60px;
+    }
+    .nav-logo img{
+        width: 45%;
+        margin-bottom: 30px;
+    }
+
+    nav{
+        display:flex;
+        flex-direction: column;
+    }
+    
+    .nav-link{
+        justify-content: space-between;
+        padding: 0 10%;
+    }
+
+    .deskrip-item{
+        flex-direction: column;
+    }
+
+    .deskrip-pict{
+        width: 40%;
+        margin-left: 0;
+    }
+
+    .deskrip-more{
+        display: flex;
+        flex-direction: column;
+        margin: 3% 45% 0 0;
+        padding: 0;
+    }
+
+    .deskrip-more p{
+        width: 160%;
+    }
+
+    .deskrip-item-mid{
+        flex-direction: column-reverse;
+    }
+
+    .deskrip-pict-right{
+        width: 40%;
+        margin-right: 0;
+        padding-top: 5%;
+    }
+
+    .deskrip-more-left{
+        display: flex;
+        flex-direction: column;
+        margin: 3% 45% 0 0;
+        padding: 0;
+    }
+
+    .deskrip-more-left h3{
+        width: 130%;
+    }
+
+    .deskrip-more-left p{
+        width: 160%;
+    }
+
+    .deskrip a{
+        width: 70%;
+    }
+
+    .deskrip-pict-over{
+        width: 40%;
+        margin-left: 0;
+    }
+
+    .store{
+        width: 130%;
+    }
+
+    .instagrampost img{
+        width: 20%;
+        padding: 3%;
+    }
+
+    footer{
+        flex-direction: column;
+    }
+
+    .footer-logo{
+        margin-bottom: 3rem;
+    }
+
+    .foot-logo{
+        width: 40%;
+        margin-right: 30%;
+    }
+
+    br{
+        display: none;
+    }
+
+    .foot-icon{
+        width: 8%;
+        padding: 10px 15px;
+    }
+
+    .footer-option{
+        width: 40%;
+    }
+
+    .footer-option a{
+        margin-left: 3rem;
+    }
+}
+
+/* --------------------------- Smartphone ---------------------*/
+@media (max-width:670px){
+
+    header{
+        background-size: 200% 100%;
+        height: 480px;
+    }
+
+    nav{
+        padding: 10% 10%;
+    }
+
+    .nav-logo img{
+        margin-bottom: 10px;
+    }
+
+    .nav-link a{
+        font-size: 14px;
+    }
+
+    .hero{
+        padding: 15% 10% 10% 10%;
+    }
+
+    .hero h1{
+        font-size: 36px;
+        line-height: 43px;
+    }
+
+    .hero p{
+        font-size: 16px;
+        line-height: 19px;
+    }
+
+    .deskrip{
+        margin-bottom: 15%;
+    }
+
+    .deskrip-pict{
+        width: 50%;
+        padding-top: 15%;
+    }
+
+    .deskrip h3{
+        font-size: 24px;
+        line-height: 26px;
+    }
+
+    .deskrip p{
+        font-size: 16px;
+        line-height: 16px;
+    }
+
+    .deskrip-more{
+        margin: 6% 24% 0 0;
+        width: 50%;
+    }
+
+    .deskrip-pict-right{
+        width: 50%;
+    }
+
+    .deskrip-more-left{
+        margin: 6% 25% 0 0;
+        width: 50%;
+    }
+
+    .deskrip-more-left h3{
+        width:100%;
+    }
+
+    .deskrip-more-left p{
+        width: 140%;
+    }
+
+    .deskrip a{
+        padding: 9px 18px;
+        font-size: 14px;
+        width: 65%;
+    }
+
+    .deskrip-pict-over{
+        width: 60%;
+    }
+
+    .store{
+        width: 125%;
+    }
+
+    .deskrip p{
+        margin-bottom: 20px;
+    }
+
+    .instagrampost h3{
+        font-size: 24px;
+        line-height: 28px;
+        margin-bottom: 20px;
+        font-weight: bolder;
+    }
+
+    .contact h1{
+        font-size: 24px;
+        line-height: 24px;
+        margin-bottom: 20px;
+    }
+
+    .contact p{
+        font-size: 14px;
+        line-height: 15px;
+        padding: 0 15%;
+        text-align: center;
+    }
+
+    .contact a{
+        padding: 9px 18px;
+        font-size: 14px;
+        width: 35%;
+        margin: 1.5rem 0;
+    }
+
+    .foot-logo{
+        width: 50%;
+        margin-right: 20%;
+    }
+
+    .foot-icon{
+        width: 10%;
+        padding: 10px 5px;
+    }
+
+    .footer-option{
+        width: 70%;
+    }
+
+    .footer-option p{
+        font-size: 14px;
+        line-height: 18px;
+        margin-bottom: 15px;
+    }
+
+    .footer-option a{
+        font-size: 14px;
+        line-height: 18px;
+        margin-bottom: 15px;
+        margin-left: 1.5rem;
+    }
+}
