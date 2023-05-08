@@ -1,0 +1,112 @@
+/* ----------------------- Tablet ---------------------*/
+@media (max-width:1000px) {
+    header{
+        height: 100%;
+    }
+
+    nav{
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .nav-logo img{
+        width: 30%;
+        padding: 5% 0 0 10%;
+    }
+
+    .nav-link{
+        gap: 10%;
+        padding-right: 0;
+        justify-content: center;
+        margin-bottom: 10px;
+    }
+
+    .nav-link a{
+        padding: 3% 4%;
+    }
+    
+}
+
+@media (max-width:670px){
+    header{
+        height: 40%;
+    }
+
+    nav{
+        gap: 10px;
+    }
+
+    .nav-logo img{
+        width: 135px;
+    }
+
+    .nav-link a{
+        font-size: 14px;
+    }
+
+    .hero {
+        padding-top: 40px;
+    }
+
+    .hero h1{
+        font-size: 24px;
+        line-height: 24px;
+        font-weight: bold;
+    }
+
+    .hero p{
+        margin: 20px 0;
+        font-size: 14px;
+        line-height: 14px;
+    }
+
+    .menu{
+        padding: 0 40px;
+        margin-bottom: 50px;
+    }
+
+    .menu-drink {
+        margin-bottom: 20px;
+        width: 135px;
+        padding: 10px 0;
+        border-radius: 10px;
+    }
+
+    .menu-title, .menu-price {
+        font-size: 12px;
+        line-height: 14px;
+    }
+
+    footer{
+        flex-direction: column;
+    }
+
+    .foot-logo{
+        width: 50%;
+        margin-right: 20%;
+    }
+
+    .foot-icon{
+        width: 10%;
+        padding: 10px 5px;
+    }
+
+    .footer-option{
+        width: 70%;
+    }
+
+    .footer-option p{
+        font-size: 14px;
+        line-height: 18px;
+        margin-bottom: 15px;
+    }
+
+    .footer-option a{
+        font-size: 14px;
+        line-height: 18px;
+        margin-bottom: 15px;
+        margin-left: 1.5rem;
+    }
+    
+}

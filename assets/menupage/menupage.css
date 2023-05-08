@@ -1,0 +1,189 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+/* --------------- Header --------------*/
+
+header{
+    height: 145px;
+    background-color: #0F8B8D;
+}
+
+nav{
+    display: flex;
+    flex-direction: row;
+}
+
+.nav-logo{
+    flex-grow: 1;
+}
+
+.nav-logo img{
+    padding: 39px 0 39px 138px;
+    width: 335px;
+}
+
+.nav-link{
+    display: flex;
+    flex-direction: row;
+    padding-right: 138px;
+}
+
+.nav-link a{
+    font-size: 30px;
+    text-decoration: none;
+    color: #F9FBFE;
+    padding: 55px 26px;
+}
+
+/* ------------------------ Hero --------------------- */
+.hero{
+    padding-top: 100px;
+    text-align: center;
+}
+
+.hero h1{
+    font-size: 48px;
+    line-height: 58px;
+    color: #0F8B8D;
+    font-weight: bolder;
+}
+
+.hero p{
+    margin: 40px 0;
+    font-size: 24px;
+    line-height: 29px;
+    letter-spacing: 1px;
+    color: #143642;
+}
+
+/* -------------------------- Menu ----------------------- */
+.menu{
+    display: flex;
+    flex-direction: column;
+    padding: 0 15%;
+    margin-bottom: 5%;
+}
+
+.menu-drink{
+    background-image: url(../images/Coffee\ background.png);
+    background-size: 100% 100%;
+    margin-bottom: 40px;
+    width: 25%;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+.menu-top{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.menu-title {
+    font-size: 20px;
+    line-height: 24px;
+    font-weight: bold;
+}
+
+.menu-price {
+    font-size: 18px;
+    line-height: 22px;
+    margin-top: 10px;
+}
+
+.menu-drink p{
+    color: #F9FBFE;
+    text-align: center;
+}
+
+.menu-drink img{
+    width: 100%;
+}
+
+/* ------------------------------------- Footer -------------------- */
+footer{
+    background-color: #143642;
+    padding: 5% 10% 10% 10%;
+    display: flex;
+    flex-direction: row;
+    border-radius: 20px;
+}
+
+.foot-logo{
+    width: 65%;
+    margin-bottom: 10px;
+}
+
+.foot-icon{
+    width: 10%;
+}
+
+.footer-option{
+    display: flex;
+    flex-direction: column;
+    width: 25%;
+}
+
+.footer-option p{
+    font-size: 24px;
+    color: #EC9A29;
+    margin-bottom: 20px;
+}
+
+.footer-option a{
+    text-decoration: none;
+    color: white;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
