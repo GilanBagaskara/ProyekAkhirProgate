@@ -1,0 +1,201 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+/* --------------- Header --------------*/
+
+header{
+    height: 145px;
+    background-color: #0F8B8D;
+}
+
+nav{
+    display: flex;
+    flex-direction: row;
+}
+
+.nav-logo{
+    flex-grow: 1;
+}
+
+.nav-logo img{
+    padding: 39px 0 39px 138px;
+    width: 335px;
+}
+
+.nav-link{
+    display: flex;
+    flex-direction: row;
+    padding-right: 138px;
+}
+
+.nav-link a{
+    font-size: 30px;
+    text-decoration: none;
+    color: #F9FBFE;
+    padding: 55px 26px;
+}
+
+/* ------------------------ Deskrip Item --------------------- */
+.deskripItem {
+    display: flex;
+    flex-direction: column;
+    padding: 5%;
+}
+
+.deskrip-img {
+    display: flex;
+    flex-direction: row;
+}
+
+.deskrip-img img{
+    width: 50%;
+}
+
+.deskrip-pls{
+    padding-top: 10%;
+}
+
+.deskrip-pls p,h1 {
+    color: #0F8B8D;
+}
+
+.title-p {
+    font-size: 48px;
+    line-height: 58px;
+    font-weight: bolder;
+}
+
+.title-desk {
+    font-size: 28px;
+    line-height: 58px;
+}
+
+.deskrip-pls h1{
+    font-size: 60px;
+    line-height: 78px;
+    font-weight: bolder;
+    margin-top: 20%;
+}
+
+.desk-explen p{
+    color: #0F8B8D;
+}
+
+.explen-title{
+    font-size: 48px;
+    line-height: 58px;
+    margin: 0 65% 0 12%;
+    /* text-decoration: underline; */
+    /* margin-bottom: 10px; */
+    border-bottom: 5px solid;
+    padding-bottom: 10px;
+    border-color: #EC9A29;
+}
+
+.explen-deskrip{
+    font-size: 24px;
+    line-height: 29px;
+    margin: 1.5% 0 2.5% 0;
+    padding: 0 20% 0 12%;
+}
+
+.desk-explen a{
+    font-size: 24px;
+    line-height: 29px;
+    padding: 20px 40px;
+    border-radius: 60px;
+    background-color: #A8201A;
+    display: block;
+    width: 250px;
+    text-decoration: none;
+    color: #F9FBFE;
+    margin-left: 12%;
+    text-align: center;
+}
+
+/* ------------------------------------- Footer -------------------- */
+footer{
+    background-color: #143642;
+    padding: 5% 10% 10% 10%;
+    display: flex;
+    flex-direction: row;
+    border-radius: 20px;
+}
+
+.foot-logo{
+    width: 65%;
+    margin-bottom: 10px;
+}
+
+.foot-icon{
+    width: 10%;
+}
+
+.footer-option{
+    display: flex;
+    flex-direction: column;
+    width: 25%;
+}
+
+.footer-option p{
+    font-size: 24px;
+    color: #EC9A29;
+    margin-bottom: 20px;
+}
+
+.footer-option a{
+    text-decoration: none;
+    color: white;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
